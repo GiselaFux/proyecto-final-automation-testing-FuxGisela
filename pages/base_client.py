@@ -8,7 +8,6 @@ class BaseAPIClient:
     """
     Cliente base para JSONPlaceholder.
 
-    Encapsula:
     - La base URL.
     - Una sesión de Requests reutilizable.
     - Logging uniforme de requests y responses.

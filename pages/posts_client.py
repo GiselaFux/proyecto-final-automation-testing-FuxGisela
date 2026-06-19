@@ -1,4 +1,3 @@
-# pages/posts_client.py
 from typing import Dict, Any
 
 from .base_client import BaseAPIClient
@@ -8,7 +7,7 @@ class PostsClient(BaseAPIClient):
     """
     Client para el recurso /posts de JSONPlaceholder.
 
-    Proporciona métodos de alto nivel para:
+    Proporciona métodos para:
     - obtener todos los posts
     - obtener un post por id
     - crear un post

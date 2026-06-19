@@ -1,4 +1,3 @@
-# pages/users_client.py
 from .base_client import BaseAPIClient
 
 
